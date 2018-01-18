@@ -1,0 +1,23 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,  i, b,
+img, form, label, ol, ul, li, a, button {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	list-style: none;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
