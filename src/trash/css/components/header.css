@@ -1,0 +1,135 @@
+.wrap {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  margin-left: -303.5px;
+  margin-top: -191.5px;
+  width: 607px;
+  height: 383px;
+}
+.wrap img {
+  width: 607px;
+  height: 383px;
+}
+input {
+  position: absolute;
+  z-index: 100;
+  top: -40px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background: #fdf5e6;
+}
+input:checked ~ .mask_first {
+  display: none;
+}
+input:checked ~ .mask_second {
+  display: block;
+}
+.mask_first {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.mask_first svg {
+  position: absolute;
+  z-index: 10;
+}
+.mask_first svg path:hover {
+  fill: #693;
+}
+.mask_first svg polygon:hover {
+  fill: #693;
+}
+.mask_first ul {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.mask_first ul li {
+  position: absolute;
+  z-index: 20;
+  color: #fff;
+}
+.mask_first ul li .percent {
+  font-size: 23px;
+}
+.mask_first ul li .part {
+  font-size: 14px;
+}
+.mask_first ul li:nth-child(1) {
+  top: 30px;
+  left: 10px;
+}
+.mask_first ul li:nth-child(2) {
+  top: 40px;
+  left: 70px;
+}
+.mask_first ul li:nth-child(3) {
+  top: 250px;
+  left: 40px;
+}
+.mask_first ul li:nth-child(4) {
+  top: 200px;
+  left: 150px;
+}
+.mask_second {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.mask_second li {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border-radius: 100px;
+}
+.mask_second li:hover .tooltip {
+  display: block;
+}
+.mask_second li .tooltip {
+  position: absolute;
+  top: -80px;
+  display: none;
+  padding: 10px;
+  width: 150px;
+  background: #000;
+  color: #fff;
+}
+.mask_second li .tooltip .name .rate {
+  color: #ff0;
+}
+.mask_second li:nth-child(1) {
+  top: 150px;
+  left: 300px;
+}
+.mask_second li:nth-child(2) {
+  top: 135px;
+  left: 300px;
+}
+.mask_second li:nth-child(3) {
+  top: 135px;
+  left: 280px;
+}
+.mask_second li:nth-child(4) {
+  top: 125px;
+  left: 290px;
+}
+.mask_second li:nth-child(5) {
+  top: 145px;
+  left: 290px;
+}
+.header ul li a.active {
+  font-size: 20px;
+  color: #a52a2a;
+}
